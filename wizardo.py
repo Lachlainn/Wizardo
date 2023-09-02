@@ -28,9 +28,9 @@ def Phoneme(file):
 for i in range(random.randint(3, 7)): #puts the acutal word together!
     r = random.randint(0, 1)
     if r == 0:
-        f = "conE.txt"
+        f = "conM.txt"
     else:
-        f = "vowE.txt"
+        f = "vowM.txt"
     output = output + Phoneme(f)
     
 
