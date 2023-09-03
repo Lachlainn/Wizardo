@@ -30,6 +30,7 @@ def OutputSpell():
     output = ""
     
 for i in range(random.randint(3, 7)): #puts the acutal word together!
+    global output
     r = random.randint(0, 1)
     if r == 0:
         f = "conM.txt"
